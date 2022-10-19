@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online QR Code Generator" />
+    <meta name="robots" content="index,follow" />
+    <meta name="keywords" content="QR, Q-Code, HTLM, CSS, Javascript, Github" />
+    <meta name="author" content="Alexis Garcia - @alexisg24" />
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    
+</head>
+<body>
+    <main class="container">
+        <section class="qr-container">
+            <h1>QR Code Generator</h1>
+            <div id="QR">
+            </div>
+            <div class="qr-item">
+                <input type="text" placeholder="Insert your text" id="form"/>
+            </div>
+            <button id="button" type="button">Generate QR Code</button>
+        </section>
+        <section class="footer-item">
+            <div class="item">
+                <ul>
+                    <li>
+                        <a href="https://github.com/alexisg24" target="_blank">
+                            <span class="github-main"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/MasterCR_" target="_blank">
+                            <span class="twitter"></span>
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    Designed by <span class="name">Alexis Garcia</span>
+                </p>
+                <p class="library">
+                    QR Code Library 
+                    <a href="https://github.com/davidshimjs/qrcodejs" target="_blank">
+                        <span class="github"></span>
+                    </a>
+
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/services/qrgen.min.js"></script>
+    <script src="./src/services/main.js"></script>
+</body>
+</html>

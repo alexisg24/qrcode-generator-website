@@ -1,0 +1,9 @@
+{
+  "name": "webqr-generator",
+  "version": "1.0.0",
+  "description": "QR Code Online Generator",
+  "main": "index.js",
+  "keywords": ["html", "javascript", "QRCode", "QR-Code"],
+  "author": "Alexis Garcia | @alexisg24",
+  "license": "MIT"
+}

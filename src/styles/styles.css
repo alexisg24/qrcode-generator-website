@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    font-size: 1.6rem;
+}
+
+body{
+    /* background-image: url('../assets/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgb(15 23 42);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    max-width: 500px;
+    min-width: 320px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.qr-container{
+    margin: 10px 10px 0px 10px;
+    padding: 15px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: white;
+    box-shadow: 0 0 10px #d1d1d1;
+}
+
+h1{
+    color: #0080FF;
+    padding: 10px 0px;
+}
+#QR{
+    margin: 10px auto;
+    text-align: center;
+}
+
+#QR>img{
+    margin: 0 auto;
+}
+
+.qr-item{
+    margin: 15px auto;
+}
+
+.qr-item>input{
+    font-size: 0.8rem;
+    width: auto;
+    padding: 8px;
+    border-radius: 8px;
+    border:1px solid black;
+}
+
+.qr-item>input:focus{
+    outline: none !important;
+    border:1px solid #0080FF;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input:focus::placeholder {
+    color: transparent;
+ }
+
+.qr-item .error{
+    border-color: red;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+button{
+    font-size: 0.8rem;
+    padding: 8px 16px;
+    background-color: rgb(186 230 253);
+    border-radius: 8px;
+    border: 1px solid #0080FF;
+}
+
+button:active{
+    border:1px solid #0080FF;
+    box-shadow: 0 0 10px #719ECE;
+}
+.footer-item{
+    margin: 0 10px;
+    padding: 15px;
+    border-top: 1px solid #e5e7ebe8;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgb(249 250 251);
+    box-shadow: 0 0 10px #d1d1d1;
+}
+.item>ul{
+    text-decoration: none;
+}
+.item>ul>li{
+    display: inline-block;
+}
+
+.name{
+    color: #0080FF
+}
+
+.library{
+    margin-top: 15px;
+}
+
+.github-main{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../assets/github.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.github{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/github.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.twitter{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../assets/twitter.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}

@@ -20,5 +20,6 @@ $Button.addEventListener('click', ()=>{
     : errorQR();
 })
 
+printQR(`https://alexisg24.github.io/qrcode-generator-website/`);
 
 
